@@ -46,7 +46,8 @@ public class VendingMachine {
 	private static final String IS_EMPTY_MESSAGE = " is empty -- cannot remove item";
 	
 	// The amount of money in the vending machine currently
-	protected double balance;
+	// Changed from protected to private. -Joe
+	private double balance;
 
 	// Array items in the vending machine
 	private VendingMachineItem[] itemArray;

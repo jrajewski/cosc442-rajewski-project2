@@ -1,0 +1,1 @@
+Changed balance variable from protected to private- prevents client code from manipulating the balance without inserting money first.

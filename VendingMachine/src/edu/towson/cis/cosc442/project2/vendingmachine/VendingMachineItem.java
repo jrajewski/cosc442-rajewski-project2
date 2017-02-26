@@ -49,3 +49,4 @@ public class VendingMachineItem {
         return price;
     }
 }
+
